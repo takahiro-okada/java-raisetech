@@ -3,8 +3,12 @@ public class CatNew {
         Cat cat = new Cat();
 
         cat.setName("Taroooooo");
-        cat.SetAge(4);
+        cat.setAge(4);
         cat.showProfile();
+        cat.addFriends("シロ", 2);
+        cat.addFriends("クロ", 9);
+        cat.addFriends("タマ", 4);
+        cat.addFriends("ジロー", 12);
         cat.showMyFriends();
     }
 }
