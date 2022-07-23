@@ -1,16 +1,18 @@
 import java.util.HashMap;
 
 public class Cat {
-    private int age;
-
-    public void SetAge(int inputAge) {
-        this.age = inputAge;
-    }
 
     private String name;
+    private int age;
+    private HashMap<String, Integer> friends = new HashMap<>();
 
-    public void setName(String inputName) {
-        this.name = inputName;
+
+    public void addFriends(String name, int age) {
+        friends.put(name, age);
+    }
+
+    public void showMyFriends() {
+        friends.forEach((key, value) -> System.out.println("友だちの名前は" + key + "です！" + value + "歳です"));
     }
 
     public void showProfile() {
@@ -21,14 +23,12 @@ public class Cat {
         }
     }
 
-    public void showMyFriends() {
-        HashMap<String, Integer> friends = new HashMap<String, Integer>();
-        friends.put("シロ", 2);
-        friends.put("クロ", 9);
-        friends.put("タマ", 4);
-        friends.put("ジロー", 12);
+    public void setName(String inputName) {
+        this.name = inputName;
+    }
 
-        friends.forEach((key, value) -> System.out.println("友だちの名前は" + key + "です！" + value + "歳です"));
+    public void setAge(int inputAge) {
+        this.age = inputAge;
     }
 }
 
