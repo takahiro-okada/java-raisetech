@@ -4,31 +4,6 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        // 第1回
-//        String greetingEnglish = "Hello World";
-//        String greetingJapanese = "こんにちは";
-//        System.out.println(greetingEnglish);
-//        System.out.println(greetingJapanese);
-//        for (int i = 0; i <= 9; i++) {
-//            System.out.println(i + "回目の" + greetingEnglish);
-//        }
-//        String[] stringArray = {"Sunday", "Monday", "Tuesday"};
-//        for (String date : stringArray) {
-//            System.out.println(date);
-//        }
-
-        // 第2回
-//        Cat cat = new Cat();
-//
-//        cat.setName("Taroooooo");
-//        cat.setAge(4);
-//        cat.showProfile();
-//        cat.addFriends("シロ", 2);
-//        cat.addFriends("クロ", 9);
-//        cat.addFriends("タマ", 4);
-//        cat.addFriends("ジロー", 12);
-//        cat.showMyFriends();
-
         // 第3回
         // List
         List<String> alcoholArray = new ArrayList<>();
@@ -44,7 +19,7 @@ public class Main {
         }
 
         // 例外処理
-        String userAge = "20";
+        String userAge = "hogehoge";
         try {
             int age = Integer.parseInt(userAge);
             if (age >= 20) {
@@ -54,6 +29,7 @@ public class Main {
             }
         } catch (NumberFormatException e) {
             System.out.println("INPUT DATA IS NOT NUMBER!!");
+            throw e;
         }
 
     }
