@@ -20,7 +20,10 @@ public class Main {
         stream2.forEach(str -> System.out.println(str));
 
         //        Streamを連結する書き方
-        List<String> fruits = Arrays.asList("Orange", "Apple", "Lemon", "Grape", "Strawberry");
+  Arrays.asList("Tokyo", "Chiba", "Saitama", "Kanagawa", "Gunma", "Tochigi", "Ibaraki", "Yamanashi")
+                .stream()
+                .filter(s -> s.length() > 5)
+                .forEach(System.out::println);
         List<String> myFavoriteFruits = Arrays.asList("Apple", "Lemon");
         fruits.stream()
                 //                フルーツをループ処理で表示する
