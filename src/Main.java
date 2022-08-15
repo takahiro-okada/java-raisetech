@@ -20,7 +20,7 @@ public class Main {
         stream2.forEach(str -> System.out.println(str));
 
         //        Streamを連結する書き方
-  Arrays.asList("Tokyo", "Chiba", "Saitama", "Kanagawa", "Gunma", "Tochigi", "Ibaraki", "Yamanashi")
+        Arrays.asList("Tokyo", "Chiba", "Saitama", "Kanagawa", "Gunma", "Tochigi", "Ibaraki", "Yamanashi")
                 .stream()
                 .filter(s -> s.length() > 5)
                 .forEach(System.out::println);
