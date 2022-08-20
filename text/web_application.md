@@ -11,5 +11,5 @@ Webサーバーから受け取ったリクエストを元に、アプリケー�
 Webサーバーからhtml/css/jsファイルをレスポンスとして、ブラウザに返却することで画面に表示されるようになります。
 
 ##  参考記事
-https://www.biz.ne.jp/matome/2004479/　　
+https://www.biz.ne.jp/matome/2004479/  
 https://www.nginx.co.jp/resources/glossary/application-server-vs-web-server/
