@@ -5,5 +5,5 @@ Spring bootでは上記のような問題を解消するために開発された
 Springのプロジェクト郡を汎用性のあるパッケージ化して誰でも扱いやすいようにしたものである。 
 
 ## 参考記事　　
-https://hnavi.co.jp/knowledge/blog/spring-boot/　　
+https://hnavi.co.jp/knowledge/blog/spring-boot/  
 https://camp.trainocate.co.jp/magazine/spring-boot/
